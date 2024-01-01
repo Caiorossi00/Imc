@@ -9,8 +9,17 @@ function calcularImc() {
   let weight = parseFloat(weightInput.value);
   let gender = genderInput.value;
 
-  if (isNaN(age) || isNaN(heightInCentimeters) || isNaN(weight)) {
-    alert("Por favor, insira valores válidos para idade, altura e peso.");
+  if (
+    isNaN(age) ||
+    isNaN(heightInCentimeters) ||
+    isNaN(weight) ||
+    age < 0 ||
+    heightInCentimeters < 0 ||
+    weight < 0
+  ) {
+    alert(
+      "Por favor, insira valores válidos e não negativos para idade, altura e peso."
+    );
     return null;
   }
 
@@ -24,7 +33,6 @@ function calcularImc() {
     imc = weight / (heightInMeters * heightInMeters);
   }
 
-  console.log("O IMC ajustado é: " + imc);
   displayInfos(imc);
   return imc;
 }
