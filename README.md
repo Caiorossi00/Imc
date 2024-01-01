@@ -9,7 +9,7 @@ Destaques e Aprendizados: <br>
   <li>Aplicação matemática</li>
   <li>Manipulação do DOM</li>
   <li>Posicionamentos</li>
-  <li>Uso de Framework/li>
+  <li>Uso de Framework</li>
 </ol>
 
 Datas Importantes: 
