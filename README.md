@@ -1,6 +1,5 @@
 <h1>Calculadora de IMC</h1>
 
-Projeto Inicial: Calculadora de IMC<br>
 Este é um projeto desenvolvido com Javascript. Foi desenvolvida uma calculadora de IMC, onde foi praticado conceitos matemáticos, captura de valores, manipulação do DOM, além de uma prática de estilização simples utilizando CSS. Também foi utilizada a framework Bootstrap.
 
 Destaques e Aprendizados: <br>
